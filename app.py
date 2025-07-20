@@ -41,11 +41,16 @@ def submit_order():
         total_price = 0
         for item in data['items']:
             price_lookup = {
-                "Lounge Elegance Espresso": 3.5,
-                "Velvet Mocha Delight": 4.25,
-                "Caramel Macchiato Symphony": 4.0,
-                "Butter Croissant": 2.0,
-                "Chocolate Danish": 3.0
+                "Lounge Elegance Espresso": 35,
+                "Velvet Mocha Delight": 45,
+                "Caramel Macchiato Symphony": 40,
+                "Butter Croissant": 20,
+                "Chocolate Danish": 300,
+                "Classic Mint Mojito": 120,
+                "Strawberry Mojito": 150,
+                "Lemon Mojito": 130,
+                "Blue Curacao Mojito":60,
+                "Watermelon Mojito": 140 
             }
             item_name = item['item']
             qty = item['qty']
